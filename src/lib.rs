@@ -23,4 +23,13 @@ mod tests {
         assert_eq!(valid_parentheses::valid_parentheses("{([{)}])"), false);
         assert_eq!(valid_parentheses::valid_parentheses("([)]"), false);
     }
+
+    #[test]
+    fn test_generate_parentheses() {
+
+        let result = generate_parentheses::generate_parentheses(3);
+
+        assert_eq!(result, ["((()))", "(()())", "(())()", "()(())", "()()()"]);
+
+    }
 }
