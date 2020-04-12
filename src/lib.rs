@@ -32,4 +32,21 @@ mod tests {
         assert_eq!(result, ["((()))", "(()())", "(())()", "()(())", "()()()"]);
 
     }
+
+    #[test]
+    fn test_check_if_word_is_valid_after_substitution() {
+        let tv1 = "aabcbc".to_string();
+        let qs = "abc";
+        assert_eq!(check_if_word_is_valid_after_substitution::isValid(tv1, qs), true);
+
+        let tv2 = "abcabcababcc".to_string();
+        assert_eq!(check_if_word_is_valid_after_substitution::isValid(tv2, qs), true);
+
+        let tv3 = "abccba".to_string();
+        assert_eq!(check_if_word_is_valid_after_substitution::isValid(tv3, qs), false);
+
+        let tv4 = "cababc".to_string();
+        assert_eq!(check_if_word_is_valid_after_substitution::isValid(tv4, qs), false);
+
+    }
 }
