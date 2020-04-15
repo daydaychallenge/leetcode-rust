@@ -57,4 +57,14 @@ mod tests {
         assert_eq!(longest_valid_parentheses_00032::longest_valid_parentheses("(()(((()".to_string()), 2);
         assert_eq!(longest_valid_parentheses_00032::longest_valid_parentheses("".to_string()), 0);
     }
+
+    #[test]
+    fn test_roman_to_int() {
+        assert_eq!(roman_to_int_00013::roman_to_int("III".to_string()), 3);
+        assert_eq!(roman_to_int_00013::roman_to_int("IV".to_string()), 4);
+        assert_eq!(roman_to_int_00013::roman_to_int("IX".to_string()), 9);
+        assert_eq!(roman_to_int_00013::roman_to_int("MCMXCIV".to_string()), 1994);
+        assert_eq!(roman_to_int_00013::roman_to_int("DCXXI".to_string()), 621);
+        assert_eq!(roman_to_int_00013::roman_to_int("LVIII".to_string()), 58);
+    }
 }
