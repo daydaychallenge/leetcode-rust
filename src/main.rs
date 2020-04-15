@@ -2,7 +2,7 @@ pub mod dd_challenge;
 
 fn main() {
     println!("Hello, world!");
-    dd_challenge::check_if_word_is_valid_after_substitution::do_sth();
+    dd_challenge::check_if_word_is_valid_after_substitution_01003::do_sth();
 
     /*let to_valid = "abcabc";
     let mut sp= to_valid.find("a");
