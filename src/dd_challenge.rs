@@ -1,13 +1,15 @@
-pub mod rotated_digits_00788;
+pub mod s00788_rotated_digits;
 
-pub mod valid_parentheses_00020;
+pub mod s00020_valid_parentheses;
 
-pub mod generate_parentheses_00022;
+pub mod s00022_generate_parentheses;
 
-pub mod check_if_word_is_valid_after_substitution_01003;
+pub mod s01003_check_if_word_is_valid_after_substitution;
 
-pub mod longest_valid_parentheses_00032;
+pub mod s00032_longest_valid_parentheses;
 
-pub mod roman_to_int_00013;
+pub mod s00013_roman_to_int;
+
+pub mod s00006_zigzag_conversion;
 
 pub mod tests;
