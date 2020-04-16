@@ -2,7 +2,7 @@ pub mod dd_challenge;
 
 fn main() {
     println!("Hello, world!");
-    dd_challenge::s00006_zigzag_conversion::do_sth();
+    dd_challenge::s00186_reverse_words_in_a_string::do_sth();
 
     /*let to_valid = "abcabc";
     let mut sp= to_valid.find("a");

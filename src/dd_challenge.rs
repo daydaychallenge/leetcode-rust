@@ -12,4 +12,6 @@ pub mod s00013_roman_to_int;
 
 pub mod s00006_zigzag_conversion;
 
+pub mod s00186_reverse_words_in_a_string;
+
 pub mod tests;

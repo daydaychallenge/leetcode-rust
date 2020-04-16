@@ -70,7 +70,7 @@ mod tests {
 
     #[test]
     fn test_zigzag_conversion() {
-        /*assert_eq!(
+        assert_eq!(
             s00006_zigzag_conversion::convert("PAYPALISHIRING".to_string(), 4),
             "PINALSIGYAHRPI"
         );
@@ -79,6 +79,14 @@ mod tests {
             "PAHNAPLSIIGYIR"
         );
         assert_eq!(s00006_zigzag_conversion::convert("A".to_string(), 1), "A");
-        assert_eq!(s00006_zigzag_conversion::convert("AY".to_string(), 2), "AY");*/
+        assert_eq!(s00006_zigzag_conversion::convert("AY".to_string(), 2), "AY");
+    }
+
+    #[test]
+    fn test_reverse_words() {
+        let mut src = vec!['t','h','e',' ','s','k','y',' ','i','s',' ','b','l','u','e'];
+        let tar = vec!['b','l','u','e',' ','i','s',' ','s','k','y',' ','t','h','e'];
+        s00186_reverse_words_in_a_string::reverse_words(&mut src);
+        assert_eq!(src, tar);
     }
 }

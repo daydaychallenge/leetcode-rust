@@ -32,7 +32,7 @@ pub fn roman_to_int(s: String) -> i32 {
             prev = curr;
         }
         else if !prev.is_none() && curr > prev {
-            sum += (curr.unwrap() - prev.unwrap());
+            sum += curr.unwrap() - prev.unwrap();
             prev = None;
         } else {
             if let Some(p) = prev {

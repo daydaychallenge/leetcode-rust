@@ -67,7 +67,7 @@ fn is_rotate_all(nums: Vec<usize>) -> bool {
 pub fn count_rotate_digits(end: usize) -> i32 {
     let mut count = 0;
 
-    for n in (1..end) {
+    for n in 1..end {
         if is_rotated_digit(n) {
             count = count + 1;
         }

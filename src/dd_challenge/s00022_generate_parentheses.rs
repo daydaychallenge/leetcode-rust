@@ -1,4 +1,3 @@
-use std::borrow::{Borrow, BorrowMut};
 
 pub fn do_sth() {
     let r = generate_parentheses(3);
