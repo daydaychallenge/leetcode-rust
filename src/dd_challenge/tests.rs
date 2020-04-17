@@ -89,4 +89,12 @@ mod tests {
         s00186_reverse_words_in_a_string::reverse_words(&mut src);
         assert_eq!(src, tar);
     }
+
+    #[test]
+    fn test_reverse_words_541() {
+        let origin_str = "abcdefg".to_string();
+        let expected_str = "bacdfeg".to_string();
+        assert_eq!(s00541_reverse_string::reverse_str(origin_str, 2), expected_str);
+        assert_eq!(s00006_zigzag_conversion::convert("AY".to_string(), 2), "AY");
+    }
 }
