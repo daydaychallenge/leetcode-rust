@@ -39,3 +39,16 @@ pub fn valid_parentheses(str: &str) -> bool {
     left_parenthese.is_empty()
 }
 
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_valid_parentheses() {
+        assert_eq!(super::valid_parentheses("{}()([])"), true);
+        assert_eq!(super::valid_parentheses(""), true);
+        assert_eq!(super::valid_parentheses("{}])"), false);
+        assert_eq!(super::valid_parentheses("{[()}]"), false);
+        assert_eq!(super::valid_parentheses("{([{)}])"), false);
+        assert_eq!(super::valid_parentheses("([)]"), false);
+    }
+
+}

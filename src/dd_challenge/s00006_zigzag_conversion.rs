@@ -73,3 +73,20 @@ fn next_position(row: usize, is_slash: bool) -> usize {
        row + 1
    }
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_zigzag_conversion() {
+        assert_eq!(
+            super::convert("PAYPALISHIRING".to_string(), 4),
+            "PINALSIGYAHRPI"
+        );
+        assert_eq!(
+            super::convert("PAYPALISHIRING".to_string(), 3),
+            "PAHNAPLSIIGYIR"
+        );
+        assert_eq!(super::convert("A".to_string(), 1), "A");
+        assert_eq!(super::convert("AY".to_string(), 2), "AY");
+    }
+}

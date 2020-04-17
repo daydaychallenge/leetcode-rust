@@ -30,3 +30,15 @@ fn generate(left: i32, right: i32, str: String, n: i32, result: &mut Vec<String>
         generate(left, right + 1, str + ")", n, result);
     }
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_generate_parentheses() {
+
+        let result = super::generate_parentheses(3);
+
+        assert_eq!(result, ["((()))", "(()())", "(())()", "()(())", "()()()"]);
+
+    }
+}

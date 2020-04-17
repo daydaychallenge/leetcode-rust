@@ -26,3 +26,13 @@ pub fn reverse_str(s: String, k: i32) -> String {
 
     res
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_reverse_str() {
+        let origin_str = "abcdefg".to_string();
+        let expected_str = "bacdfeg".to_string();
+        assert_eq!(super::reverse_str(origin_str, 2), expected_str);
+    }
+}

@@ -47,3 +47,13 @@ fn reverse(s: &mut Vec<char>, left: usize, right: usize) {
     }
 }
 
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_reverse_words() {
+        let mut src = vec!['t', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e'];
+        let tar = vec!['b', 'l', 'u', 'e', ' ', 'i', 's', ' ', 's', 'k', 'y', ' ', 't', 'h', 'e'];
+        super::reverse_words(&mut src);
+        assert_eq!(src, tar);
+    }
+}

@@ -41,3 +41,13 @@ fn reverse(s: &mut Vec<char>, left: usize, right: usize) {
         end -= 1;
     }
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_reverse_words() {
+        let origin_str = "Let's take LeetCode contest".to_string();
+        let expected_str = "s'teL ekat edoCteeL tsetnoc".to_string();
+        assert_eq!(super::reverse_words(origin_str), expected_str);
+    }
+}

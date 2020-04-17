@@ -75,3 +75,15 @@ pub fn count_rotate_digits(end: usize) -> i32 {
 
     count
 }
+
+#[cfg(test)]
+mod tests {
+
+    #[test]
+    fn test_rotate_digits() {
+
+        assert_eq!(super::count_rotate_digits(10), 4);
+    }
+
+
+}

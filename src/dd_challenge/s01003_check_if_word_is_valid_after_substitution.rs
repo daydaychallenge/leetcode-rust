@@ -23,3 +23,22 @@ pub fn isValid(to_valid: String, query_str: &str) -> bool {
     }
 
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_check_if_word_is_valid_after_substitution_01003() {
+        let tv1 = "aabcbc".to_string();
+        let qs = "abc";
+        assert_eq!(super::isValid(tv1, qs), true);
+
+        let tv2 = "abcabcababcc".to_string();
+        assert_eq!(super::isValid(tv2, qs), true);
+
+        let tv3 = "abccba".to_string();
+        assert_eq!(super::isValid(tv3, qs), false);
+
+        let tv4 = "cababc".to_string();
+        assert_eq!(super::isValid(tv4, qs), false);
+    }
+}
