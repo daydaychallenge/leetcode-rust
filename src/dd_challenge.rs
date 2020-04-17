@@ -15,4 +15,7 @@ pub mod s00006_zigzag_conversion;
 pub mod s00186_reverse_words_in_a_string;
 
 pub mod s00541_reverse_string;
+
+pub mod s00557_reverse_words_in_a_string;
+
 pub mod tests;
