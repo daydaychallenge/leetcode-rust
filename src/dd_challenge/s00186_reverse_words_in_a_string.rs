@@ -1,4 +1,3 @@
-use std::borrow::BorrowMut;
 
 pub fn do_sth() {
     let mut s = vec!['a', 'b', 'c', 'd'];

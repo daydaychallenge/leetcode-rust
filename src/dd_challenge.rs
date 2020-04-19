@@ -1,4 +1,6 @@
 
+pub mod s00005_longest_palindrome_substring;
+
 pub mod s00006_zigzag_conversion;
 
 pub mod s00013_roman_to_int;
