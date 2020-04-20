@@ -21,6 +21,8 @@ pub mod s00541_reverse_string;
 
 pub mod s00557_reverse_words_in_a_string;
 
+pub mod s00647_palindromic_substrings;
+
 pub mod s00788_rotated_digits;
 
 pub mod s01003_check_if_word_is_valid_after_substitution;
