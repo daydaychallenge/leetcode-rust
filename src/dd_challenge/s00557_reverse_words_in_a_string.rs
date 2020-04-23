@@ -6,7 +6,7 @@ pub fn reverse_words(s: String) -> String {
 
     let mut s: Vec<char> = s.chars().collect();
 
-    let mut s_len = s.len();
+    let s_len = s.len();
     let mut start = 0;
 
     while start < s_len {

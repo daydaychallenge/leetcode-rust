@@ -1,8 +1,6 @@
-use std::collections::HashMap;
 
 pub fn do_sth() {
     let os1 = vec!["bat".to_string(), "tab".to_string(), "cat".to_string()];
-    let exp1 = vec![(0, 1), (1, 0)];
     let res1 = palindrome_pairs(os1);
     println!("{:?}", res1);
 
@@ -28,8 +26,8 @@ pub fn palindrome_pairs(words: Vec<String>) -> Vec<(i32, i32)> {
     let len = words.len();
     let mut res: Vec<(i32, i32)> = Vec::new();
 
-    let mut words1 = words.clone();
-    let mut words2 = words.clone();
+    let words1 = words.clone();
+    let words2 = words.clone();
     for i in 0..len {
         for j in 0..len {
             if i != j && is_palindrome(&words1[i], &words2[j]) {

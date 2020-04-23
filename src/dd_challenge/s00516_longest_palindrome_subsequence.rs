@@ -7,7 +7,7 @@ pub fn longest_palindrome(s: String) -> i32 {
 
     for len in 1..n + 1 {
         for i in 0..n-len + 1 {
-            let mut j = i + len - 1;
+            let j = i + len - 1;
             if i == j {
                 dp[i][j] = 1;
                 continue;

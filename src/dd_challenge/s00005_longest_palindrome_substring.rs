@@ -6,12 +6,6 @@ pub fn do_sth() {
     let ss = &s[start..end];
     println!("{:?}", ss);
 
-    let s2: usize = 3;
-    let s3: usize = 2;
-
-    let res3 = s2 - s3;
-
-
     let s1 = "abcdcbfk";
     let r1 = longest_palindrome(s1.to_string());
     println!("{:?}", r1);
@@ -43,8 +37,10 @@ pub fn longest_palindrome(s: String) -> String {
         return s;
     }
 
-    let (mut begin, mut end, mut left, mut right, mut max) =
-        (0, 0, 0, 0, 0);
+    let (mut begin, mut end, mut max) =  (0, 0, 0);
+
+    let mut left;
+    let mut right;
 
     for i in 0..len {
         left = i;

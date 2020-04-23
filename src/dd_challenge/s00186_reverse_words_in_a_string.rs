@@ -13,7 +13,7 @@ pub fn reverse_words(s: &mut Vec<char>) {
 
     s.reverse();
 
-    let mut s_len = s.len();
+    let s_len = s.len();
     let mut start = 0;
 
     while start < s_len {

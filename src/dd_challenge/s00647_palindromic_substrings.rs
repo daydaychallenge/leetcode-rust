@@ -7,15 +7,14 @@ pub fn do_sth() {
     println!("The count substrings is : {:?}", res);
 }
 
+/// Manacher Algorithm
+/// step 1: add '$''#' into string
+/// The character '$' here is just to prevent overbounds
+/// there is an even palindrome 'abba' and odd palindrome 'opxpo' in 's="abahopxpo"',
+/// which are converted into '#a#b#b#a#' and '#o#p#x#p#o#',
+/// and the length is converted into odd
+///
 pub fn count_substrings(s: String) -> i32 {
-
-    /** Manacher Algorithm
-      * step 1: add '$''#' into string
-      * The character '$' here is just to prevent overbounds
-      * there is an even palindrome 'abba' and odd palindrome 'opxpo' in 's="abahopxpo"',
-      * which are converted into '#a#b#b#a#' and '#o#p#x#p#o#',
-      * and the length is converted into odd
-      */
 
     let mut new_str = vec!['$', '#'];
     for ch in s.chars() {

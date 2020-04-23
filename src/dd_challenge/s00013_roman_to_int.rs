@@ -24,7 +24,7 @@ pub fn roman_to_int(s: String) -> i32 {
     roman_int.insert('M', M);
 
     let mut sum = 0;
-    let mut curr: Option<i32> = None;
+    let mut curr: Option<i32>;
     let mut prev: Option<i32> = None;
     for ss in s.chars() {
         curr = roman_int.get(&ss).map(|x| *x);

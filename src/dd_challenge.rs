@@ -17,6 +17,8 @@ pub mod s00186_reverse_words_in_a_string;
 
 pub mod s00214_shortest_palindrome;
 
+pub mod s00266_palindrome_permutation;
+
 pub mod s00336_palindrome_pairs;
 
 pub mod s00516_longest_palindrome_subsequence;

@@ -2,7 +2,6 @@
 use std::collections::{VecDeque, HashMap};
 
 const LEFT_PARENTHESES: &[char] = &['[', '{', '('];
-const RIGHT_PARENTHESE: &[char] = &[']', '}', ')'];
 
 pub fn do_sth() {
     let p1 = "{}()";
