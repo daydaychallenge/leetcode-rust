@@ -1,4 +1,6 @@
 
+pub mod s00002_add_two_numbers;
+
 pub mod s00005_longest_palindrome_substring;
 
 pub mod s00006_zigzag_conversion;
@@ -34,3 +36,5 @@ pub mod s00647_palindromic_substrings;
 pub mod s00788_rotated_digits;
 
 pub mod s01003_check_if_word_is_valid_after_substitution;
+
+pub  struct Solution;
