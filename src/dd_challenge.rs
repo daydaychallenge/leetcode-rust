@@ -25,6 +25,8 @@ pub mod s00266_palindrome_permutation;
 
 pub mod s00336_palindrome_pairs;
 
+pub mod s00445_add_numbers_ii;
+
 pub mod s00516_longest_palindrome_subsequence;
 
 pub mod s00541_reverse_string;
