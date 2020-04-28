@@ -15,6 +15,8 @@ pub mod s00032_longest_valid_parentheses;
 
 pub mod s00043_multiply_strings;
 
+pub mod s00067_add_binary;
+
 pub mod s00151_reverse_words_in_a_string;
 
 pub mod s00186_reverse_words_in_a_string;
