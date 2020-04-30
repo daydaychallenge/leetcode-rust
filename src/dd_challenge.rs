@@ -25,6 +25,8 @@ pub mod s00214_shortest_palindrome;
 
 pub mod s00266_palindrome_permutation;
 
+pub mod s00273_integer_to_english_words;
+
 pub mod s00336_palindrome_pairs;
 
 pub mod s00369_plus_one_linkedlist;
