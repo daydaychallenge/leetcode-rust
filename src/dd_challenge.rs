@@ -13,6 +13,8 @@ pub mod s00022_generate_parentheses;
 
 pub mod s00032_longest_valid_parentheses;
 
+pub mod s00038_count_and_say;
+
 pub mod s00043_multiply_strings;
 
 pub mod s00067_add_binary;
