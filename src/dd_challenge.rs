@@ -1,6 +1,8 @@
 
 pub mod s00002_add_two_numbers;
 
+pub mod s00003_longest_substring_without_repeating_characters;
+
 pub mod s00005_longest_palindrome_substring;
 
 pub mod s00006_zigzag_conversion;
