@@ -9,6 +9,8 @@ pub mod s00006_zigzag_conversion;
 
 pub mod s00013_roman_to_int;
 
+pub mod s00014_longest_common_prefix;
+
 pub mod s00020_valid_parentheses;
 
 pub mod s00022_generate_parentheses;
