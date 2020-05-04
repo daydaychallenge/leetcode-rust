@@ -27,6 +27,8 @@ pub mod s00067_add_binary;
 
 pub mod s00151_reverse_words_in_a_string;
 
+pub mod s00159_length_of_longest_substring_two_distinct;
+
 pub mod s00186_reverse_words_in_a_string;
 
 pub mod s00214_shortest_palindrome;
