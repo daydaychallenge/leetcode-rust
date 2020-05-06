@@ -59,6 +59,8 @@ pub mod s00647_palindromic_substrings;
 
 pub mod s00788_rotated_digits;
 
+pub mod s00992_subarrays_with_k_different_integers;
+
 pub mod s01003_check_if_word_is_valid_after_substitution;
 
 pub  struct Solution;
