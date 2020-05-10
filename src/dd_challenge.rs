@@ -25,6 +25,8 @@ pub mod s00038_count_and_say;
 
 pub mod s00043_multiply_strings;
 
+pub mod s00044_wildcard_matching;
+
 pub mod s00067_add_binary;
 
 pub mod s00151_reverse_words_in_a_string;
