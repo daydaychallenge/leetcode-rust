@@ -7,6 +7,8 @@ pub mod s00005_longest_palindrome_substring;
 
 pub mod s00006_zigzag_conversion;
 
+pub mod s00010_regular_expression_matching;
+
 pub mod s00012_int_to_roman;
 
 pub mod s00013_roman_to_int;
