@@ -19,6 +19,8 @@ pub mod s00020_valid_parentheses;
 
 pub mod s00022_generate_parentheses;
 
+pub mod s00028_implement_str;
+
 pub mod s00032_longest_valid_parentheses;
 
 pub mod s00038_count_and_say;

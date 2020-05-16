@@ -7,7 +7,7 @@ use std::cmp::min;
 /// 和t的当前位置开始的子串是否相同，反之如果t的长度大，则比较t的下一个位置开始的子串，
 /// 和s的当前位置开始的子串是否相同。如果循环结束，都没有找到不同的字符，
 /// 那么此时看两个字符串的长度是否相差1
-/// 
+///
 impl Solution {
     pub fn is_one_edit_distance(s: String, t: String) -> bool {
         let s_bytes = s.as_bytes();

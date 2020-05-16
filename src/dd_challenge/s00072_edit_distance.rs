@@ -73,6 +73,7 @@ impl Solution {
 mod tests {
     use crate::dd_challenge::Solution;
 
+    #[test]
     fn test_min_distance() {
         assert_eq!(Solution::min_distance("horse".to_string(), "ros".to_string()), 3);
         assert_eq!(Solution::min_distance("intention".to_string(), "execution".to_string()), 5);
