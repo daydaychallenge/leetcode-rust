@@ -31,6 +31,8 @@ pub mod s00043_multiply_strings;
 
 pub mod s00044_wildcard_matching;
 
+pub mod s00049_group_anagrams;
+
 pub mod s00067_add_binary;
 
 pub mod s00072_edit_distance;
