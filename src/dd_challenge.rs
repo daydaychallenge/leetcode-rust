@@ -47,6 +47,8 @@ pub mod s00186_reverse_words_in_a_string;
 
 pub mod s00214_shortest_palindrome;
 
+pub mod s00242_valid_anagram;
+
 pub mod s00266_palindrome_permutation;
 
 pub mod s00273_integer_to_english_words;
