@@ -49,6 +49,8 @@ pub mod s00214_shortest_palindrome;
 
 pub mod s00242_valid_anagram;
 
+pub mod s00249_group_shifted_strings;
+
 pub mod s00266_palindrome_permutation;
 
 pub mod s00273_integer_to_english_words;
