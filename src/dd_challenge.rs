@@ -83,6 +83,8 @@ pub mod s00788_rotated_digits;
 
 pub mod s00804_unique_morse_code_words;
 
+pub mod s00929_unique_email_address;
+
 pub mod s00937_reorder_data_in_log_files;
 
 pub mod s00992_subarrays_with_k_different_integers;
