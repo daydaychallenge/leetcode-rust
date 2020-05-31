@@ -41,6 +41,8 @@ pub mod s00072_edit_distance;
 
 pub mod s00076_minimum_window_substring;
 
+pub mod s00091_decode_ways;
+
 pub mod s00151_reverse_words_in_a_string;
 
 pub mod s00159_length_of_longest_substring_two_distinct;
