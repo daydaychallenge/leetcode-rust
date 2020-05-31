@@ -79,6 +79,8 @@ pub mod s00541_reverse_string;
 
 pub mod s00557_reverse_words_in_a_string;
 
+pub mod s00609_find_duplicate_file_in_system;
+
 pub mod s00647_palindromic_substrings;
 
 pub mod s00657_robot_return_to_origin;
