@@ -69,6 +69,8 @@ pub mod s00336_palindrome_pairs;
 
 pub mod s00340_longest_substring_with_at_most_k_distinct_characters;
 
+pub mod s00345_reverse_vowels_of_a_string;
+
 pub mod s00369_plus_one_linkedlist;
 
 pub mod s00371_sum_of_two_integers;
