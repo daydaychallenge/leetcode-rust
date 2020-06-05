@@ -47,6 +47,8 @@ pub mod s00097_interleaving_string;
 
 pub mod s00115_distinct_subsequences;
 
+pub mod s00125_valid_palindrome;
+
 pub mod s00151_reverse_words_in_a_string;
 
 pub mod s00159_length_of_longest_substring_two_distinct;
@@ -56,6 +58,8 @@ pub mod s00161_one_edit_distance;
 pub mod s00186_reverse_words_in_a_string;
 
 pub mod s00214_shortest_palindrome;
+
+pub mod s00227_basic_calculator_ii;
 
 pub mod s00242_valid_anagram;
 
@@ -94,6 +98,8 @@ pub mod s00609_find_duplicate_file_in_system;
 pub mod s00647_palindromic_substrings;
 
 pub mod s00657_robot_return_to_origin;
+
+pub mod s00761_special_binary_string;
 
 pub mod s00788_rotated_digits;
 
