@@ -75,6 +75,8 @@ pub mod s00369_plus_one_linkedlist;
 
 pub mod s00371_sum_of_two_integers;
 
+pub mod s00387_first_unique_character_in_a_string;
+
 pub mod s00415_add_strings;
 
 pub mod s00443_string_compression;
