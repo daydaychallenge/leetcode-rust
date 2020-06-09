@@ -49,6 +49,8 @@ pub mod s00115_distinct_subsequences;
 
 pub mod s00125_valid_palindrome;
 
+pub mod s00126_word_ladder_ii;
+
 pub mod s00151_reverse_words_in_a_string;
 
 pub mod s00159_length_of_longest_substring_two_distinct;
