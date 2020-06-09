@@ -101,6 +101,8 @@ pub mod s00657_robot_return_to_origin;
 
 pub mod s00761_special_binary_string;
 
+pub mod s00767_reorganize_string;
+
 pub mod s00788_rotated_digits;
 
 pub mod s00804_unique_morse_code_words;
