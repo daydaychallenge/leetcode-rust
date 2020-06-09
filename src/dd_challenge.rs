@@ -79,6 +79,8 @@ pub mod s00369_plus_one_linkedlist;
 
 pub mod s00371_sum_of_two_integers;
 
+pub mod s00383_ransom_note;
+
 pub mod s00387_first_unique_character_in_a_string;
 
 pub mod s00415_add_strings;
@@ -100,6 +102,8 @@ pub mod s00647_palindromic_substrings;
 pub mod s00657_robot_return_to_origin;
 
 pub mod s00761_special_binary_string;
+
+pub mod s00767_reorganize_string;
 
 pub mod s00788_rotated_digits;
 
