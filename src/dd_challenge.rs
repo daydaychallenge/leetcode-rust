@@ -37,6 +37,8 @@ pub mod s00058_length_of_last_word;
 
 pub mod s00067_add_binary;
 
+pub mod s00071_simplify_path;
+
 pub mod s00072_edit_distance;
 
 pub mod s00076_minimum_window_substring;

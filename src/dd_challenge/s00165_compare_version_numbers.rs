@@ -15,7 +15,7 @@ impl Solution {
             }
             flag +=1;
         }
-        
+
         for (c1, c2) in v1.into_iter().zip(v2.into_iter()) {
             if c1 < c2 {
                 return -1;
