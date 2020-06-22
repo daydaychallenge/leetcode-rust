@@ -97,6 +97,8 @@ pub mod s00445_add_numbers_ii;
 
 pub mod s00516_longest_palindrome_subsequence;
 
+pub mod s00539_minimum_time_difference;
+
 pub mod s00541_reverse_string;
 
 pub mod s00557_reverse_words_in_a_string;
