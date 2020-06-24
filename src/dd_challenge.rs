@@ -109,6 +109,8 @@ pub mod s00647_palindromic_substrings;
 
 pub mod s00657_robot_return_to_origin;
 
+pub mod s00681_next_closest_time;
+
 pub mod s00761_special_binary_string;
 
 pub mod s00767_reorganize_string;
